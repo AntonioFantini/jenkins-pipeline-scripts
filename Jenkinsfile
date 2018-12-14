@@ -4,7 +4,6 @@ pipeline {
     stage('Test') {
       steps {
         script {
-          
           executeInProdExecutor('ls -latr', null, false)
         }
         
