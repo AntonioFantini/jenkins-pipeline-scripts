@@ -6,7 +6,7 @@ pipeline {
         script {
           executeInProdExecutor('ls -latr', null, false)
         }
-        
+
       }
     }
   }
