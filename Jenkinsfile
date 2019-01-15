@@ -1,7 +1,7 @@
-@Library('contra-prod') _
+@Library('pct-gates') _
 
-withRhProdPod{
-    node(env.podName){
+runGate{
+    node("Test"){
         stage('Stage 1'){
   // YOUR JENKINS FILE CONTENT GOES HERE
   // calling brew(), rhpkg() will utilize the tooling
