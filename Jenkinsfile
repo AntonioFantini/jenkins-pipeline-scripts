@@ -1,3 +1,4 @@
+@Library('contra-prod')
 pipeline {
   agent any
   stages {
